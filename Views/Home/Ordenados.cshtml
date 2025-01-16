@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="~/css/ordenados.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <h1>Artistas ordenados</h1>
+        <form id="form">
+            <div class="form-g">
+                <button type="button" id="submitVerAr">Ordenar Artistas</button>
+            </div>
+
+            <div class="form-g">
+                <button type="button" id="submitVerGene">Ordenar Gêneros</button>
+            </div>
+        </form>
+
+        <div class="player">
+            <div class="player-controls">
+                <button class="skip-back"><<</button>
+                <button class="like">♥</button>
+                <button class="skip-forward">>></button>
+            </div>
+        </div>
+    </header>
+
+    <ul id="songsContainer" class="songscontainer songs"></ul>
+    <div id="prev-and-next-container" class="prev-and-next-container"></div>
+
+    <script src="~/js/ordenadosjs" asp-append-version="true"></script>
+</body>
+</html>

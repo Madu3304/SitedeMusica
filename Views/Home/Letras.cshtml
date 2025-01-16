@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ <link rel="stylesheet" href="~/css/letras.css" asp-append-version="true" />    
+</head>
+<body>
+  <header>
+    <h1>Busca letras</h1>
+    <form id="form">
+      <input
+        id="search"
+        type="text"
+        placeholder="Insira o nome do artista ou da música..." />
+
+      <button>Buscar</button>
+    </form>
+  </header>
+      <body>
+        <div class="card-group">
+            <div class="card">
+            <img src="~/css/imagens/transferir (2).jpg" alt="Imagem ilustrativa" class="img-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="~/css/imagens/transferir (2).jpg" alt="Imagem ilustrativa" class="img-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+            <div class="card">
+            <img src="~/css/imagens/transferir (2).jpg" alt="Imagem ilustrativa" class="img-thumbnail">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+         </div>
+      </body>
+
+  <ul id="songs-container" class="songs-container songs"></ul>
+
+  <div id="prev-and-next-container" class="prev-and-next-container"></div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="~/js/letras.js" asp-append-version="true"></script>
+</body>
+</html>
